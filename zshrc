@@ -8,8 +8,11 @@ compinit
 # automatically enter directories without cd
 setopt auto_cd
 
-# use vim as an editor
+# use TextMate as an editor
+#export EDITOR=vim
 export EDITOR=mate
+export GEM_OPEN_EDITOR=mate
+export BUNDLER_EDITOR=mate
 
 # aliases
 if [ -e "$HOME/.aliases" ]; then
