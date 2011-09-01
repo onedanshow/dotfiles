@@ -1,3 +1,6 @@
+# required so HomeBrew's installation are ahead of any system defaults (like postgresql on Lion)
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+
 # load our own completion functions
 fpath=(~/.zsh/completion $fpath)
 
