@@ -3,6 +3,9 @@
 cutstring="DO NOT EDIT BELOW THIS LINE"
 
 for name in *; do
+	#if [ "$name" -eq "README.sh" ]; then
+	#	continue
+	#fi
   target="$HOME/.$name"
   if [ -e $target ]; then
     if [ ! -L $target ]; then

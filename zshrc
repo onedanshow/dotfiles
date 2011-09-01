@@ -63,3 +63,6 @@ setopt CORRECT CORRECT_ALL
 
 # Enable extended globbing
 setopt EXTENDED_GLOB
+
+# RVM
+[[ -s '/Users/daniel/.rvm/scripts/rvm' ]] && source '/Users/daniel/.rvm/scripts/rvm'
