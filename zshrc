@@ -13,9 +13,9 @@ setopt auto_cd
 
 # use TextMate as an editor
 #export EDITOR=vim
-export EDITOR=mate
-export GEM_OPEN_EDITOR=mate
-export BUNDLER_EDITOR=mate
+export EDITOR=subl
+export GEM_OPEN_EDITOR=subl
+export BUNDLER_EDITOR=subl
 
 # aliases
 if [ -e "$HOME/.aliases" ]; then
